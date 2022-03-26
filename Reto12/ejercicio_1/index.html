@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripción a la lista de espera para acceder al servicio de 
+        internet de Starlink.</title>
+</head>
+
+<body>
+    <section class="form-register">
+    <form>
+        
+          <h4>Formulario de inscripción a la lista de espera para acceder al servicio de 
+            internet de Starlink.</h4>
+            <div>         
+                <br>
+             <label for="nombre">Nombres:</label>
+             <br>
+             <br>
+             <input class="controls"  type="text" id="nombre" name="usuario_nombre" required>
+            </div>
+            <div>
+                <label for="apellido">Apellidos:</label>
+                <br>
+                <br>
+                <input class="controls"  type="text" id="apellido" name="usuario_apellido" required>
+            </div>
+            
+          
+            <div>
+                <label for="pais">País:</label>
+                <br>
+                <br>
+                <select class="controls"  name="pais" id="pais" form="paisform" required>
+                    <option value="seleccionar">Seleccionar</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="bolivia">Bolivia</option>
+                    <option value="brasil">Brasil</option>
+                    <option value="chile">Chile</option>
+                    <option value="colombia">Colombia</option>
+                    <option value="costarica">Costa Rica</option>
+                    <option value="cuba">Cuba</option>
+                    <option value="ecuador">Ecuador</option>
+                    <option value="salvador">El Salvador</option>
+                    <option value="mexico">México</option>
+                    <option value="panama">Panamá</option>
+                    <option value="peru">Perú</option>
+                </select>
+            </div>
+            
+        
+            <div>
+                <label for="departamento">Departamento:</label>
+                <br>
+                <br>
+                <select class="controls"  name="departamento" id="departamento" form="departamentoform" required>
+                <option value="seleccionar">Seleccionar</option>
+                <option value="antioquia">Antioquia</option>
+                <option value="amazonas">Amazonas</option>
+                <option value="arauca">Arauca</option>
+                <option value="atlantico">Atlántico</option>
+                <option value="bolivar">Bolívar</option>
+                <option value="caqueta">Caquetá</option>
+                <option value="casanare">Casanare</option>
+                <option value="cauca">Cauca</option>
+                <option value="caldas">Caldas</option>
+                <option value="cordoba">Córdoba</option>
+                <option value="cundinamarca">Cundinamarca</option>
+                <option value="huila">Huila</option>              
+                </select>
+            </div>   
+              
+            <div>
+                <label for="ciudad">Ciudad:</label>
+                <br>
+                <br>
+                <select class="controls"  name="ciudad" id="ciudad" form="ciudadform" required>
+                  <option value="seleccionar">Seleccionar</option>
+                  <option value="armenia">Armenia</option>
+                  <option value="barranquilla">Barranquilla</option>
+                  <option value="bogota">Bogotá</option>
+                  <option value="bucaramanga">Bucaramanga</option>
+                  <option value="cali">Cali</option>
+                  <option value="cartagena">Cartagena</option>
+                  <option value="cucuta">Cucuta</option>
+                  <option value="ibague">Ibagué</option>
+                  <option value="manizales">Manizales</option>
+                  <option value="medellin">Medellín</option>
+                  <option value="pereira">Pereira</option>
+                  <option value="villavicencio">Villavicencio</option>              
+                </select>
+            </div>    
+               
+            <div>
+                <label for="correo">Correo electrónico:</label>
+                <br>
+                <br>
+                <input class="controls"  type="email" name="correo" placeholder="usuario@gmail.com" required>
+            </div>
+             
+            <div>
+                <label for="contrasena">Contraseña:</label>
+                <br>
+                <br>
+                <input class="controls"  type="password" id="contrasena" name="contrasena" minlength="8" required>
+            </div>
+            <div>
+                <label for="cobertura">¿Cuenta con cobertura de internet actualmente?</label>
+                <br>
+                <br>
+                <input  type="checkbox" value="1" id="product-1-1" name="check" /> Si
+                <input  type="checkbox" value="2" id="product-1-2" name="check" /> No
+               
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="fecha">Fecha de nacimiento:</label>
+                <br>
+                <br>
+                <input class="controls" type="date" id="fecha" name="fecha" required>       
+            </div>  
+            
+            <div>
+                <label for="color">Color del modem y de la antena:</label>
+                <br>
+                <br>
+                <select class="controls"  name="color" id="color" form="colorform" required>
+                  <option value="seleccionar">Seleccionar</option>
+                  <option value="blanco">Blanco</option>
+                  <option value="dorado">Dorado</option>
+                  <option value="gris">Gris</option>                      
+                </select>
+            </div>              
+          </p>
+        
+    </form>
+      <input class="botons" type="submit" value="Registrar" onclick="location.href = 'registro.html' ">
+    </section>
+    
+</body>
+</html>
